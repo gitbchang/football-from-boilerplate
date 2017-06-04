@@ -7,6 +7,7 @@
     "test": "",
     "start": "node server",
     "build": "rimraf dist && webpack --config ./webpack.production.config.js --progress --profile --colors",
+    "postinstall": "npm run build",
     "eslint": "eslint ."
   },
   "keywords": [
